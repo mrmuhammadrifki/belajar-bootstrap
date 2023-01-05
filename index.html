@@ -16,11 +16,18 @@
   <body>
     <div class="container">
       <h1>Menguasai Framework Bootstrap</h1>
-      <a href="#" class="btn btn-secondary">Muhammad Rifki</a>
+      <a href="#" class="btn btn-secondary">Muhammad Rifki <span class="badge text-bg-primary">S. Kom.</span></a>
       <button type="button" class="btn btn-outline-info">5 Januari 2022</button>
       <button type="button" class="btn btn-outline-warning btn-lg">MyPortofolio</button>
       <button type="button" class="btn btn-outline-warning btn-sm">MyHobbies</button>
       <input type="reset" class="btn btn-warning" value="Reset" />
+      <button type="button" class="btn btn-outline-info position-relative">
+        Notifikasi
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+          9999+
+          <span class="visually-hidden">unread messages</span>
+        </span>
+      </button>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eum distinctio voluptas autem nemo animi excepturi, accusamus at reiciendis sit, odio doloremque! Ratione debitis dolores iusto. Blanditiis accusantium cum officia.
         Atque accusamus, consectetur culpa quo molestias quaerat, exercitationem odit ducimus cupiditate magnam expedita minima maiores qui nulla, ea nemo tempore rerum. Expedita necessitatibus libero, obcaecati tempore commodi repellat
@@ -37,13 +44,26 @@
 
       <p class="lead">This is a lead paragraph. It stands out from regular paragraphs.</p>
 
-      <figure>
+      <figure class="text-center mt-5 mb-5">
         <blockquote class="blockquote">
           <p>Lakukan yang terbaik dan nikmati prosesnya karna tidak ada yang instan seperti merebus mie bro, merubus mie pun ada prosesnya owkwkwkw.</p>
         </blockquote>
         <figcaption class="blockquote-footer">Mr. Muhammad Rifki <cite title="Source Title">Founder Berani Bermimpi</cite></figcaption>
       </figure>
+
+      <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary">Tampil</button>
+          <button type="button" class="btn btn-warning">Ubah</button>
+          <button type="button" class="btn btn-danger">Hapus</button>
+        </div>
+        <button class="btn btn-primary" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          Loading...
+        </button>
+      </div>
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
   </body>
